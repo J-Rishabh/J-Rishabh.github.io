@@ -7,11 +7,38 @@
 		 * {
   box-sizing: border-box;
 }
+@-webkit-keyframes AnimationName {
+    0%{background-position:97% 0%}
+    50%{background-position:4% 100%}
+    100%{background-position:97% 0%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:97% 0%}
+    50%{background-position:4% 100%}
+    100%{background-position:97% 0%}
+}
+@-o-keyframes AnimationName {
+    0%{background-position:97% 0%}
+    50%{background-position:4% 100%}
+    100%{background-position:97% 0%}
+}
+@keyframes AnimationName { 
+    0%{background-position:97% 0%}
+    50%{background-position:4% 100%}
+    100%{background-position:97% 0%}
+}
+/*Credit to Ian Forrest - https://www.gradient-animator.com/*/
 
 body {
-  margin: 0;
-  padding: 0;
-  background: #FFFFFF;
+background: linear-gradient(36deg, #543093, #e881c3);
+background-size: 400% 400%;
+
+-webkit-animation: AnimationName 30s ease infinite;
+-moz-animation: AnimationName 30s ease infinite;
+-o-animation: AnimationName 30s ease infinite;
+animation: AnimationName 30s ease infinite;
+/*Credit to Ian Forrest - https://www.gradient-animator.com/*/
+
 }
 
 .bar {
