@@ -1,0 +1,20 @@
+locale: "en-US"
+repository: "j-rishabh/j-rishabh.github.io"
+title: Rishabh Jain
+description: Portfolio Website for Rishabh Jain
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "j-rishabh.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+author-name: Rishabh Jain
+
+social-github: j-rishabh
+
+google-analytics:
+
+markdown: kramdown
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - LICENSE
+  - README.md
